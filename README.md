@@ -35,7 +35,7 @@
 
 I am a **Computer Science & Engineering** student with a deep interest in backend architectures, distributed systems, and applied AI pipelines.
 
-I learn by **building, breaking, fixing, and evolving**. Rather than collecting surface-level tutorials, I choose ideas that challenge my technical understanding, deconstruct the underlying protocols and data flows, and engineer reliable, production-minded solutions from scratch.
+I learn by **building, breaking, fixing, and evolving**. Rather than collecting surface-level tutorials, I choose ideas that challenge my technical understanding, deconstruct the underlying protocols and data flows, and turn what I learn into structured, working software.
 
 > *"I don't just build projects to have something to put on GitHub. I pick an idea, break it down, learn the concepts needed to build it, and turn what I learn into something that actually works."*
 
@@ -58,7 +58,7 @@ I learn by **building, breaking, fixing, and evolving**. Rather than collecting 
       <ul>
         <li><b>Biomechanical Computer Vision:</b> Real-time human pose estimation using Google MediaPipe and OpenCV joint angle trigonometry.</li>
         <li><b>LLM Agent Pipelines:</b> Context-aware intelligent agents leveraging Groq Cloud (Llama 3) with deterministic safety intercepts.</li>
-        <li><b>Polyglot Integration:</b> Inter-service communication bridging Python intelligence services with enterprise Java backend cores.</li>
+        <li><b>Polyglot Integration:</b> Inter-service communication bridging Python intelligence services with a structured Java / Spring Boot backend core.</li>
       </ul>
     </td>
   </tr>
@@ -68,7 +68,7 @@ I learn by **building, breaking, fixing, and evolving**. Rather than collecting 
       <ul>
         <li><b>Atmospheric Composition:</b> Intentional interplay of deep shadow contrast, exposure control, and ambient lighting.</li>
         <li><b>Editorial Color Grading:</b> Meticulous chromatic balance, film-inspired palettes, and consistent visual storytelling.</li>
-        <li><b>The Frame Gallery:</b> 9 selected photographs integrated with custom full-resolution EXIF & editorial modals.</li>
+        <li><b>The Frame Gallery:</b> 9 selected photographs integrated with a full-resolution lightbox view, category, mood, and tool metadata.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -122,7 +122,7 @@ The portfolio is architected as an immersive single-page progressive application
   <tr>
     <td><code>06</code></td>
     <td><b>THE FRAME</b></td>
-    <td>Editorial photographic gallery showcasing 9 curated captures processed in Adobe Lightroom, with lightbox view and full technical EXIF data.</td>
+    <td>Editorial photographic gallery showcasing 9 curated captures processed in Adobe Lightroom, with full-resolution lightbox view, category, mood, and tool details.</td>
   </tr>
   <tr>
     <td><code>07</code></td>
@@ -137,7 +137,7 @@ The portfolio is architected as an immersive single-page progressive application
   <tr>
     <td><code>09</code></td>
     <td><b>CONNECT</b></td>
-    <td>Communication terminal with one-click clipboard copying, quick social links, and direct verified outreach channels.</td>
+    <td>Communication terminal providing verified direct outreach channels (email, phone), social profiles, and quick navigation.</td>
   </tr>
 </table>
 
@@ -153,7 +153,7 @@ The portfolio is architected as an immersive single-page progressive application
 
 </div>
 
-An end-to-end multi-tier intelligent health and athletic coaching platform bridging real-time **computer vision biomechanical kinematics** with **LLM-driven conversational agents** and **enterprise persistence**.
+An end-to-end multi-tier health and athletic coaching platform bridging real-time **computer vision biomechanical kinematics** with **LLM-driven conversational agents** and **relational persistence**.
 
 ### System Architecture Flow
 
@@ -197,8 +197,8 @@ flowchart TB
 ### Key Engineering Highlights:
 - **Real-Time Biomechanical Kinematics**: MediaPipe 33-point pose landmark trigonometry calculating joint angles for squats, curls, and push-ups with cadence tracking.
 - **Autonomous AI Coaching**: Groq Cloud Llama 3 LLM pipeline with deterministic safety guardrails intercepting acute medical symptoms.
-- **Enterprise Spring Core**: Java 21 Spring Boot core managing user authentication, workout logs, and personalized macro target engines.
-- **Zero-Downtime Database Migrations**: Automated relational version control via Flyway on MySQL 8.0.
+- **Spring Boot Core**: Java 21 Spring Boot core managing user authentication, workout logs, and personalized macro target engines.
+- **Database Migrations**: Version-controlled relational schema migrations via Flyway on MySQL 8.0.
 - **Containerized Orchestration**: Multi-service Docker Compose architecture with isolated container networks.
 
 ---
@@ -218,7 +218,7 @@ The **FIELD LOG** sector chronicles my engineering evolution across 5 distinct, 
 └─────────────────────────┘       └─────────────────────────┘       └─────────────────────────┘
 ```
 
-1. **`01` · From Learning to Building**: Moving beyond syntax syntax tutorials to understand data structures, control flows, and object-oriented paradigms by building functional software.
+1. **`01` · From Learning to Building**: Moving beyond basic syntax tutorials to understand data structures, control flows, and object-oriented paradigms by building functional software.
 2. **`02` · Backend Foundations**: Architecting structured servers with Spring Boot, handling HTTP request lifecycles, designing normalized relational schemas, and establishing clean REST API contracts.
 3. **`03` · Distributed Systems**: Decomposing monolithic applications into dedicated microservices, managing network boundaries, and handling asynchronous inter-service communication.
 4. **`04` · Cloud & DevOps**: Deepening Linux system administration, containerizing multi-tier environments with Docker, and configuring automated CI/CD deployment pipelines.
@@ -268,7 +268,7 @@ Software engineering is reinforced by the habits built outside the IDE:
       <ul>
         <li><b>District Gold Medalist</b> & <b>State Silver Medalist</b> in competitive strength sports.</li>
         <li>Conditioned to respect long-term iterative progression: results come from relentless consistency, recovery, and incremental overload.</li>
-        <li>Performing under pressure with strict technical form mirrors debugging critical production systems with clarity and discipline.</li>
+        <li>Performing under pressure with strict technical form mirrors diagnosing complex software problems with clarity and discipline.</li>
       </ul>
     </td>
   </tr>
@@ -278,14 +278,14 @@ Software engineering is reinforced by the habits built outside the IDE:
 
 ## 💻 Portfolio Engineering & Quality Standards
 
-This portfolio itself was built as a clean, performant, production-ready web application:
+This portfolio itself was built as a clean, responsive web application:
 
 - **Architecture**: Single Page Application built on React 18 and Vite 8.
 - **Language**: TypeScript 5.8 with strict type-safety and 0 runtime errors.
 - **Styling**: Tailwind CSS v4 featuring an Obsidian background (`#08080a`) with Crimson accent glows (`#E63946`).
 - **Motion**: GPU-accelerated micro-interactions powered by Framer Motion with reduced-motion fallbacks.
 - **Performance**: Zero render-blocking script chains, preloaded critical font faces, and optimized responsive picture elements.
-- **Lighthouse Score**: **100/100** across Performance, Accessibility, Best Practices, and SEO.
+- **Quality Assurance**: Responsive QA across desktop, tablet, and mobile with production build, accessibility, SEO, and runtime checks.
 
 ---
 
@@ -297,7 +297,7 @@ I am always interested in discussing software architecture, backend engineering 
 
 | Platform | Channel | Link |
 | :--- | :--- | :--- |
-| 🌐 **Live Portfolio** | Production Deployment | [portfolio-three-sooty-40.vercel.app](https://portfolio-three-sooty-40.vercel.app) |
+| 🌐 **Live Portfolio** | Live Web Application | [portfolio-three-sooty-40.vercel.app](https://portfolio-three-sooty-40.vercel.app) |
 | 💻 **GitHub** | `@saketh752` | [github.com/saketh752](https://github.com/saketh752) |
 | 💼 **LinkedIn** | `saketh-yadav-255b51318` | [linkedin.com/in/saketh-yadav-255b51318](https://www.linkedin.com/in/saketh-yadav-255b51318) |
 | 📸 **Instagram** | `@saketh._.yadav.07` | [instagram.com/saketh._.yadav.07](https://www.instagram.com/saketh._.yadav.07/) |
