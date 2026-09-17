@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #07080A;
+    color: #F8F9FA;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07080A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #141720;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D90429;
+}
+
+/* Subtle Comic-Print Halftone Accent (Ultra-Restrained) */
+.bg-comic-halftone {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.bg-comic-halftone-crimson {
+  background-image: radial-gradient(rgba(217, 4, 41, 0.08) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Spider-Man Inspired Atmospheric Glow & Web Radial */
+.bg-web-organic {
+  background: 
+    radial-gradient(circle at 75% 20%, rgba(217, 4, 41, 0.09) 0%, transparent 45%),
+    radial-gradient(circle at 20% 60%, rgba(217, 4, 41, 0.06) 0%, transparent 50%),
+    #07080A;
+}
+
+/* Dimensional Comic/Editorial Typographic Treatment */
+.spider-headline {
+  text-shadow: 
+    1px 1px 0px rgba(217, 4, 41, 0.6),
+    2px 2px 0px rgba(127, 9, 22, 0.8),
+    0 0 25px rgba(217, 4, 41, 0.25);
+}
+
+.crimson-edge {
+  box-shadow: inset 2px 0 0 0 #D90429;
+}
+
+.crimson-top-edge {
+  box-shadow: inset 0 2px 0 0 #D90429;
+}
+
+/* Accessibility: Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
